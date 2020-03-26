@@ -1,0 +1,70 @@
+/* Navigation Bar */
+#navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
+
+/* Logo */
+ .logo{
+	position:absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -5px;
+	margin-left:10px;
+}
+
+/*header to move to the center*/
+h1 {
+  text-align: center;
+}
+/*paragraph to stay on the left */
+p {
+  text-align: left;
+}
+
+/*image to move to the center */
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:400px;
+	width:500px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.gmap_canvas 
+{overflow:hidden;
+	background:none!important;
+	height:400px;
+	width:500px;
+ 	margin-left: auto;
+    margin-right: auto;
+}
+
+
